@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import './ResultBox.css'
+import React, { useState } from 'react'
+import "./style.css";
 import image from './icon.jpg'
+
 
 const ResultBox = ({weatherData}) => {
 
@@ -9,6 +10,7 @@ const ResultBox = ({weatherData}) => {
       <img src={image} alt="icon not loaded" className='icon-img'/>
       <span className="results">{weatherData.name}</span>
       <span className="temp">{((weatherData?.main?.temp)-273.15).toFixed(2)}&deg;C</span>
+      <span className="desc">{(weatherData?.weather?.[0]?.description)}</span>
     </div>
   )
 }
