@@ -1,26 +1,29 @@
-.Result-box{
-    display: block;
-    position: relative;
-    margin-left: 400px;
-    margin-top: 220px;
-    height: 300px;
+.Result-box {
+    position: absolute;
+    right: 30vw;
+    top: 32vh;
+    height: 60vh;
     width: 170px;
     color: aliceblue;
-}
-.icon-img{
-    display: block;
+  }
+  
+  .icon-img {
     position: absolute;
-    height: 250px;
-}
-.results{
+    height: 40vh;
+  }
+  
+  .results {
     position: absolute;
-    margin-top: 280px;
-    margin-left: 80px;
-    font-size: 30px;
-}
-.temp{
+    margin-top: 40vh;
+    margin-left: 5.5vw;
+    font-size: 2.5em;
+  }
+  
+  .temp {
     position: absolute;
-    margin-top: 340px;
-    margin-left: 70px;
-    font-size: 40px;
-}
+    margin-top: 50vh;
+    margin-left: 5.5vw;
+    font-size: 2.5em;
+  }
+  
+  

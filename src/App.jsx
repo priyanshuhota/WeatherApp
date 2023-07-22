@@ -1,23 +1,25 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
+import "./Components/style.css";
 import InputBox from './Components/InputBox';
 import ResultBox from './Components/ResultBox';
 import { useState } from 'react';
+import img from './Components/clouds.jpg';
+import image from './Components/icon.jpg';
 
 function App() {
   
   const[weatherData, setWeatherData] = useState({});
 
   return (
-
     <>
       <div className='App'>
         <div className="back">
-        <InputBox setWeatherData={setWeatherData}/>
-        <ResultBox weatherData={weatherData}/>
-        <span className='heading'>AccuWeather</span>
+        <img src={img} className='backImage'/>
+        <div className='heading'>GlobeWeather</div>
         </div>
-      </div>
+        <InputBox setWeatherData={setWeatherData} />
+        <ResultBox weatherData={weatherData} />
+      </div>  
     </>
   )
 }

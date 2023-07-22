@@ -1,34 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
 
-.inputBox{
-    margin-right: 10px;
-    margin-top: 250px;
-    margin-left: 200px;
-    position: relative;
+.inputBox {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 35vh;
+  font-size: 10px;
 }
-.Message{
-    font-family: 'Libre Baskerville', serif;
-    color:#ffffff;
-    font-weight: 2000;
-    font-size: 26px;  
-    text-shadow: #070057 3px 3px;
+
+.Message {
+  font-family: "Libre Baskerville", serif;
+  color: #ffffff;
+  font-weight: 2000;
+  font-size: 2.7em;
+  text-shadow: #070057 3px 3px;
 }
-.textBox{
-    display: block;
-    margin-top: 60px;
-    font-size: large;
-    width: 450px;
-    height: 50px;
-    background-color: #eaeaea;
-    border-color: #070057;
+
+.textBox {
+  display: block;
+  margin-top: 60px;
+  font-size: large;
+  width: 450px;
+  height: 8vh;
+  background-color: #eaeaea;
+  border-color: #070057;
 }
-.btn{
-    margin-top: 60px;
-    margin-left: 130px;
-    color: #000000;
-    background-color: #c0c0c0;
-    border-color: #070057;
-    height: 60px;
-    width: 200px;
-    
+
+.btn {
+  margin-top: 4em;
+  margin-left: 25%;
+  color: #000000;
+  background-color: #c0c0c0;
+  border-color: #070057;
+  height: 60px;
+  width: 40%;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: #9d9d9d;
 }

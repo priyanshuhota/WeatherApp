@@ -1,0 +1,202 @@
+/* app component */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Foldit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  position: relative;
+  font-size: 10px;
+}
+
+.back {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.backImage {
+  position: fixed;
+  height: 100%;
+  background-size: cover;
+  margin-right: 30%; 
+  width: 115%;
+  z-index: -100;
+}
+
+.heading {
+  font-family: 'Foldit', sans-serif;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 40vw;
+  font-size: 5em;
+}
+
+/* input component */
+.inputBox {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 35vh;
+  font-size: 10px;
+}
+
+.Message {
+  font-family: "Libre Baskerville", serif;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 2.7em;
+  text-shadow: #070057 3px 3px;
+}
+
+.textBox {
+  display: block;
+  margin-top: 60px;
+  font-size: large;
+  width: 450px;
+  max-width: 90%; 
+  height: 8vh;
+  background-color: #eaeaea;
+  border-color: #070057;
+}
+
+.btn {
+  margin-top: 2em; 
+  margin-left: 25%;
+  color: #000000;
+  background-color: #c0c0c0;
+  border-color: #070057;
+  height: 60px;
+  width: 40%;
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: #9d9d9d;
+}
+
+/* result component */
+.Result-box {
+  position: absolute;
+  right: 30vw;
+  top: 28vh;
+  height: 60vh;
+  width: 170px;
+  color: aliceblue;
+}
+
+.icon-img {
+  position: absolute;
+  height: 40vh;
+}
+
+.results {
+  position: absolute;
+  margin-top: 40vh;
+  margin-left: 5.5vw;
+  font-size: 2.3em;
+  font-family: "Libre Baskerville", serif;
+
+}
+
+.temp {
+  position: absolute;
+  margin-top: 48vh;
+  margin-left: 5.5vw;
+  font-size: 2.3em;
+  font-family: "Libre Baskerville", serif;
+
+}
+
+.desc{
+  position: absolute;
+  margin-top: 56vh;
+  margin-left: 5.5vw;
+  font-size: 2.3em;
+  width: 30vw;
+  font-family: "Libre Baskerville", serif;
+
+}
+
+@media (max-width: 1175px){
+    .icon-img{
+        max-width: 0;
+    }
+    
+}
+
+@media (min-width: 768px ) and (max-width: 1175px){
+    .heading{
+        margin-left: 30%;
+    }
+    .inputBox{
+        margin-left: 25vw;
+    }
+    .results{
+    font-size: 2.5em;
+    right: 55%;    
+    }
+    .temp{
+    font-size: 2.5em;
+    right: 55%;
+    }
+    .desc{
+      font-size: 2.5em;
+      right: 0%;
+    }
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 3em;
+    margin-left: 20vw;
+  }
+
+  .inputBox {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .textBox {
+    width: 80%;
+    font-size: medium;
+    margin-left: 5%;
+  }
+
+  .btn {
+    margin-top: 1em;
+    margin-left: 15%;
+    width: 60%;
+  }
+
+  .Result-box {
+    right: 50%;
+    top: 28vh;
+    width: 120px;
+  }
+
+  .icon-img{
+    height: 0;
+  }
+
+  .results
+   {
+    font-size: 1.5em;
+    margin-left: 50%;
+    margin-top: 48vh;
+  }
+  .temp{
+    font-size: 1.5em;
+    margin-left: 50%;
+    margin-top: 52vh;
+  }
+  .desc{
+    font-size: 1.5em;
+    margin-left: 50%;
+    margin-top: 56vh;
+  }
+}
+
+
